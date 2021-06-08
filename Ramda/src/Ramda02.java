@@ -12,6 +12,10 @@ public class Ramda02 {
     // 변수에 람다식 메서드를 담을 수도 있다.
     public static MyFunctionalInterface todo() {
 
+        // 간소화 전
+        // return (int num) -> {return num * num;};
+
+        // 간소화 후
         return num -> num * num;
     }
 }
